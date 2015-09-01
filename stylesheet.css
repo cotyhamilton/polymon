@@ -31,6 +31,12 @@ th {
     display: inline;
 }
 
+.nav p {
+	color:	white;
+	font-family: 'Quicksand', sans-serif;
+	float: right;
+}
+
 table {
     margin: auto;
 }
