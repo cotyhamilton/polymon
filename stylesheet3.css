@@ -16,3 +16,35 @@
 .flex-item {
     
 }
+
+body {
+    background-color: #1d1f21;
+}
+
+.nav {
+	height: 100px;
+	border-radius: 10px;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+.nav img {
+	margin: 0px;
+	padding: 12px 0px 0px 10px;
+	border: none;
+}
+
+.nav h6 {
+    font-family: 'Quicksand', sans-serif;
+    color: #efefef;
+    font-size: 72px;
+    font-weight: 400;
+    display: inline;
+}
+
+.nav p {
+	color:	white;
+	font-family: 'Quicksand', sans-serif;
+	float: right;
+}
