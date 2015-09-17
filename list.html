@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Polymon | online pokedex</title>
+<html lang="en">
+    <head>
+        <title>polymon | pokedex</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link href='https://fonts.googleapis.com/css?family=Quicksand:700,400' rel='stylesheet' type='text/css'>
 		<link type="text/css" rel="stylesheet" href="stylesheet2.css" />
-	</head>
-	<body>
+    </head>
+    <body>
         <div class="nav">
-			<img src="nav/logo3.png"/>
-            <h6>POLYMON</h6>
-        </div>
-		<table>
+            <div class="logo">
+                <img src="nav/logo3.png"/>
+            </div>
+            <div class="logo-text">
+                <h6>POLYMON</h6>
+            </div>
+            <a class="grid-toggle" href="index.html">grid</a>
+            <form action="/search">
+                <input type="text" placeholder="search">
+                <button type="submit">Go</button>
+            </form>
+		</div>
+        <table>
 			<thead>
                 <th>caught</th>
                 <th colspan="2">number</th>
@@ -89,5 +99,5 @@
 			</tr>
 			<tr>
 			</tr>
-	</body>
+    </body>
 </html>
