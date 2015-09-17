@@ -1,30 +1,49 @@
 body {
     font-family: 'Quicksand', sans-serif;
-    color: #eeeeee;
+    color: #efefef;
     background-color: #1d1f21;
 }
 
 .nav {
 	height: 100px;
     width: 100%;
-	border-radius: 10px;
-	margin: 0px;
 	padding: 0px;
 	border: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1d1f21;
 }
 
-.nav img {
-	margin: 0px;
-	padding: 12px 0px 0px 10px;
-	border: none;
+.logo {
+    float: left;
+    display: inline-block;
+    padding-top: 16px;
+    padding-right: 5px;
+    padding-left: 12px;
+    margin: none;
 }
 
-.nav h6 {
+.logo-text {
+    display: inline-block;
+}
+
+.logo-text h6{
     font-family: 'Quicksand', sans-serif;
     color: #efefef;
     font-size: 72px;
-    display: inline;
-    font-weight: 400
+    font-weight: 400;
+}
+
+.list-toggle {
+	color:	white;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.nav form {
+    float: right;
+    display: inline-flex;
+    padding: 65px 15px 0px 0px;
 }
 
 table {
