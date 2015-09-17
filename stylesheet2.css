@@ -1,6 +1,5 @@
 body {
     background-color: #1d1f21;
-    color: #efefef;
 }
 
 .nav {
@@ -35,7 +34,7 @@ body {
 }
 
 .grid-toggle {
-	color:	white;
+	color:	#efefef;
 	font-family: 'Quicksand', sans-serif;
 }
 
@@ -51,7 +50,7 @@ table {
     padding-top: 20px;
     border-collapse: collapse;
     margin-top: 110px;
-    
+    color: #efefef;
 }
 
 th {
